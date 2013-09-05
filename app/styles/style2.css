@@ -1,0 +1,11 @@
+.form {
+	width: 250px;
+	display: inline-block;
+	text-align: left;
+}
+
+.celebrity-image {
+	width: 250px;
+	display: inline-block;
+}
+
