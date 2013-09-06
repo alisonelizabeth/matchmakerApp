@@ -148,3 +148,7 @@ a:hover {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.celebrity-static {
+	width: 250px;
+	height: 320px;
+}
