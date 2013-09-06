@@ -152,3 +152,14 @@ a:hover {
 	width: 250px;
 	height: 320px;
 }
+
+/* style for preview name */
+
+#preview-text {
+	width: 250px;
+	height: 50px;
+}
+
+.highlight {
+	background: red;
+}

@@ -1,15 +1,3 @@
-// public int findCode(femaleCeleb ageRange) {
-//   for (int i=0; i<=9; i++) {
-//     if (femaleCeleb.tryCode(i)) {
-//       // found the code!
-//       return(i);
-//     }
-//   }
-//   return(-1);  // if we get here, we did not find the code
-// }
-
-
-
 var celebrity = [
 	{name: "Taylor Swift",
 	gender: "Female",
@@ -109,119 +97,34 @@ var celebrity = [
 	personality: "funny"}, 
 ]
 
-// function goToNewPage() {
-//     if(document.getElementById('target').value){
-//         window.location.href = document.getElementById('target').value;
-//     }
-// }
-
-// for (i=0;i<=9;i++)
-//  {
-//  if (i==3) continue;
-//    i;
-//   }
-
-
-//         for (int celebrity = 0; celebrity <= 9; celebrity++)
-//             System.out.println("" + "Male");
-    
-
-// var Male = celebrity[0]
-
-// function findMale(Male) {
-// 	return Male == "Male"
-// }
-// celebrity.filter(findMale)
-
-
-// $(document).ready (function(){
-// $(".btn-primary").click(function(){
-// if (validateForm()){
-// getName();
-// }
-
-// }) //end of button click function
-// }) //end of document ready 
-
-
-// function getName () {
-// var name = $('.name').val();
-
-// $('#preview-name').text(name + " your celebrity match is:")
-// }
-
-// var usersCollection = []
-
-// $(document).ready (function(){
-
-// 	$('.button').click(function(){
-// 		if (validateForm()) {
-// 			// getProfileInfo();
-// 			// usersCollection.push(getFormValues());
-// 			// updateUserList(usersCollection);
-// 		}
-// 	}) //end of button click function 
-
-// })  //end of document ready
-
-// function getFormInfo () {
-// 	var genderVal	 		= $('#gender-dropdown').val();
-// 	var ageVal 				= $('#age-dropdown').val();
-// 	var interestsVal 		= $('#interests-dropdown').val();
+$(document).ready (function(){
+	$('.btn').click(function(){
+		if (validateForm()) {  
+			getName();
+			}
+		}); //end of button click function
 	
+}); //end of document ready
 
-// 	$('.preview-name').text(nameVal);	
-// 	$('.preview-age').text('Want to know more about me? Well, I am ' + ageVal + ' years old.');
-// 	$('.preview-job').text('I work as a ' + jobVal + '.');
-// 	$('.preview-movie').text('If I had to pick a favorite movie it would be ' + movieVal + '.');
-// 	$('.preview-hobbies').text('Here are a few of my hobbies: ' + hobbiesVal + '.');
-// 	$('.preview-email').text('You can reach me at ' + emailVal + '.');
+function getName () {
+	var name = $("#name").val();
 
-// }
+	$("#preview-text").text(name + ', your celebrity match is:')
+}
 
-// function getFormValues () {
-// 	var name 	= $('.name').val();
-// 	var email 	= $('.email').val();
-	
-
-// 	formData = {
-// 		name: name,
-// 		email: email
-// 	};
-
-// 	return formData // returns an object
-// 	//if you return something, can store it
-
-// 	}
+function validateForm () {
+			var valid = true;
+			// $('.message').removeClass('popup-message')
+			$('#name').removeClass("highlight")
+			$('#name').each(function(){
+				if ($(this).val() == "") {
+					valid = false
+					$(this).addClass("highlight")
+					// $('.message').addClass('popup-message')
+				}
+			})
 
 
-// function updateUserList (list) {
-// 	var ol = $('.users-list ol');
-// 	ol.html(''); //clears 
-
-// 	list.forEach(function(user) {
-// 		var text = "<li>" + ("<b>" + "Name: " + "</b>") + user.name + "," + 
-// 		("<b>" + "		Email address: " + "</b>") + user.email + "</li>";
-// 		ol.append(text);
-// 	})
-// }
-
-
-
-// function validateForm () {
-// 			var valid = true;
-// 			$('.message').removeClass('popup-message')
-// 			$('input').removeClass("warning")
-// 			$('input').each(function(){
-// 				if ($(this).val() == "") {
-// 					console.log("input left empty");
-// 					valid = false
-// 					$(this).addClass("warning")
-// 					$('.message').addClass('popup-message')
-// 				}
-// 			})
-
-// 			 return valid
-// 		}
-
+			 return valid
+		}
  
