@@ -1,11 +1,150 @@
+.container {
+	position: relative;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%,rgba(255, 255, 255, 1) 100%);
+	max-width: 940px;
+}
+
 .form {
 	width: 250px;
 	display: inline-block;
 	text-align: left;
+	float: left;
+	margin-left: 35px;
 }
 
 .celebrity-image {
 	width: 250px;
 	display: inline-block;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.header {
+	display: inline-block;
+	background: black;
+	margin-top: 20px;
+	position: absolute;
+}
+
+.header-nav-bar {
+	
+	width: 910px;
+	left: 100px;
+	top: 48px;
+	height: 76px;
+	font-size: 18pt;
+	display: inline-block;
+	font-family:'Poiret One', cursive;;
+	text-transform: uppercase;
+	line-height: 10px;
+	padding-left: 35px;
+	padding-top: 25px;
+	padding-right: 35px;
+	background: black;
+	/*margin-top: 20px;*/
+}
+
+.about {
+	display: inline-block;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#dLabel:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.text-muted {
+	float: right;
+	color: white;
+	display: inline-block;
+	font-family:'Poiret One', cursive;;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-size: 50px;
+}
+
+.home {
+	display: inline-block;
+}
+
+.nav {
+	display: inline-block;
+}
+
+.jumbo-who {
+	font-family: 'Poiret One', cursive;
+	margin-top: 55px;
+
+}
+
+.btn-contact {
+	color: #428bca;
+	font-size: 18pt;
+	background-color: transparent;
+	border-color: transparent;
+	padding: 0px 0px;
+
+}
+
+.btn-contact:hover {
+	background-color: transparent;
+	border-color: transparent;
+	color: white;
+}
+
+.modal-content {
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+}
+
+.modal-title {
+	font-family: 'Poiret One', cursive;
+	margin-left: 15px;
+	font-size: 18pt;
+}
+
+.modal-address {
+	font-size: 12pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 25px;
+}
+
+.modal-address-person {
+	font-size: 20pt;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-menu {
+	min-width: 220px;
+}
+
+.list-group-item {
+	background-color: white;
+}
+
+.list-group-item:active {
+	z-index: 2;
+	color: white;
+	background-color: #428bca;
+	border-color: #428bca;
+
+}
+
+.list-group-item-text {
+	font-size: 8pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

@@ -32,7 +32,7 @@ body {
 .header h3 {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 40px;
+    line-height: 30px;
     padding-bottom: 19px;
 }
 
@@ -70,7 +70,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 940px;
     }
 
     /* Remove the padding we set earlier */
