@@ -1,3 +1,9 @@
+var _; //globals
+
+var maleCelebs = [];
+var femaleCelebs = [];
+
+
 var celebrity = [
 	{name: "Taylor Swift",
 	gender: "Female",
@@ -50,6 +56,7 @@ var celebrity = [
 	ageRange: "51 and up",
 	personality: "funny"}, 
 
+// starts male celebs 
 
 	{name: "Daniel Radcliffe",
 	gender: "Male",
@@ -73,7 +80,7 @@ var celebrity = [
 
 	{name: "Leonardo DiCaprio",
 	gender: "Male",
-	ageRange: "26-50",
+	ageRange: "36-50",
 	personality: "serious"},
 
 	{name: "Zach Galifianakis",
@@ -108,19 +115,39 @@ $(document).ready (function(){
 
 function getName () {
 	var name = $("#name").val();
-
 	$("#preview-text").text(name + ', your celebrity match is:')
-}
+};
+
+//finds the male celebs, pushes them into a new array called maleCelebs
+function getGenderMale () {	
+	var male = celebrity.filter(function(obj) {return obj.gender == "Male";});
+	maleCelebs.push(male);
+};
+
+//finds female celebs, pushes them into a new array called femaleCelebs
+function getGenderFemale () {
+   	var female = celebrity.filter(function(obj) {return obj.gender == "Female";});
+	femaleCelebs.push(female);	
+};
+
+function matchGender () {
+	var gender = $("#gender").val()
+	if (gender == "Male") {
+		return getGenderMale()
+	} else {
+		return getGenderFemale()
+	};
+};
 
 function validateForm () {
 			var valid = true;
-			// $('.message').removeClass('popup-message')
+			// $('.message').removeClass('warning-message')
 			$('#name').removeClass("highlight")
 			$('#name').each(function(){
 				if ($(this).val() == "") {
 					valid = false
 					$(this).addClass("highlight")
-					// $('.message').addClass('popup-message')
+					$('.message').html('<p>Please enter your name.</p>')
 				}
 			})
 

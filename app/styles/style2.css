@@ -163,3 +163,26 @@ a:hover {
 .highlight {
 	background: red;
 }
+
+.message p {
+	font-size: 12px;
+	color: red;
+	margin-left: 10px;
+}
+
+/*styling inputs on left side*/
+.name-input {
+	height: 85px;
+}
+
+.gender {
+	height: 85px;
+}
+
+.age {
+	height: 85px;
+}
+
+.personality {
+	height: 85px;
+}
