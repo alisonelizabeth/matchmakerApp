@@ -1,29 +1,22 @@
-var _; //globals
-
-var maleCelebs = [];
-var femaleCelebs = [];
-
-
 var celebrity = [
+    //female celebs 
 	{name: "Taylor Swift",
 	gender: "Female",
 	ageRange: "20-35",
 	personality: "romantic"},
-
 
 	{name: "Kristen Stewart",
 	gender: "Female",
 	ageRange: "20-35",
 	personality: "serious"},
 
-
 	{name: "Anna Kendrick",
 	gender: "Female",
 	ageRange: "20-35",
 	personality: "funny"},
 
-
 	{name: "Julia Roberts",
+	gender: "Female",
 	ageRange: "36-50",
 	personality: "romantic"},
 
@@ -32,31 +25,27 @@ var celebrity = [
 	ageRange: "36-50",
 	personality: "serious"},
 
-
 	{name: "Tina Fey",
 	gender: "Female",
 	ageRange: "36-50",
 	personality: "funny"}, 
-
 
 	{name: "Kim Cattrall",
 	gender: "Female",
 	ageRange: "51 and up",
 	personality: "romantic"},
 
-
 	{name: "Susan Sarandon",
 	gender: "Female",
 	ageRange: "51 and up",
 	personality: "serious"},
-
 
 	{name: "Betty White",
 	gender: "Female",
 	ageRange: "51 and up",
 	personality: "funny"}, 
 
-// starts male celebs 
+// male celebs 
 
 	{name: "Daniel Radcliffe",
 	gender: "Male",
@@ -102,7 +91,7 @@ var celebrity = [
 	gender: "Male",
 	ageRange: "51 and up",
 	personality: "funny"}, 
-]
+];
 
 $(document).ready (function(){
 	$('.btn').click(function(){
@@ -118,30 +107,24 @@ function getName () {
 	$("#preview-text").text(name + ', your celebrity match is:')
 };
 
-//finds the male celebs, pushes them into a new array called maleCelebs
-function getGenderMale () {	
-	var male = celebrity.filter(function(obj) {return obj.gender == "Male";});
-	maleCelebs.push(male);
-};
+function findMatch () {
+	var selected = {
+		genderInput: $("#gender").val(), 
+		ageInput: $("#age-range").val(),
+		personalityInput: $("#personality").val()
+	}
 
-//finds female celebs, pushes them into a new array called femaleCelebs
-function getGenderFemale () {
-   	var female = celebrity.filter(function(obj) {return obj.gender == "Female";});
-	femaleCelebs.push(female);	
-};
+	var matches = celebrity.filter(function(obj) {
+		return	obj.gender 		== selected.genderInput &&
+				obj.ageRange 	== selected.ageInput &&
+				obj.personality == selected.personalityInput; 
+	});
 
-function matchGender () {
-	var gender = $("#gender").val()
-	if (gender == "Male") {
-		return getGenderMale()
-	} else {
-		return getGenderFemale()
-	};
-};
+	return matches.map(function(obj) {return obj})
+	}
 
 function validateForm () {
 			var valid = true;
-			// $('.message').removeClass('warning-message')
 			$('#name').removeClass("highlight")
 			$('#name').each(function(){
 				if ($(this).val() == "") {
@@ -150,8 +133,5 @@ function validateForm () {
 					$('.message').html('<p>Please enter your name.</p>')
 				}
 			})
-
-
 			 return valid
 		}
- 
