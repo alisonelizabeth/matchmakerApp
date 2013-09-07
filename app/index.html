@@ -95,8 +95,9 @@
                 <div class="form">
                     <div class="name-input">
                     <span>Name: </span>
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
                     </div>
+                    <div class="message"></div>
                     <div class="gender">
                     <span>Gender:</span>
                     <select id="gender" class="form-control">
@@ -110,13 +111,13 @@
                     <select id="age-range" class="form-control">
                         <option value="20-35">20-35</option>
                         <option value="36-50">36-50</option>
-                        <option value="51 and older">51 and older</option>
+                        <option value="51 and up">51 and up</option>
                     </select>
                     </div>
 
                     <div class="personality">
                     <span>Personality:</span>
-                     <select id="Personality" class="form-control">
+                     <select id="personality" class="form-control">
                         <option value="funny">Funny</option>
                         <option value="serious">Serious</option>
                         <option value="romantic">Romantic</option>
@@ -126,15 +127,14 @@
                 <button type="button" class="btn btn-primary">Submit</button>
                 </div>
 
-                <div class="celebrity-image">
+                <div class="celebrity-finder">
+                <span id="preview-text"></span>
                 <img class="celebrity-static"
                 src="http://lh4.ggpht.com/-4akHuCB4liI/T5BI8__wBWI/AAAAAAAAKw4/p4cQgiMUwoI/elastic%252520x_thumb%25255B3%25255D.png?imgmax=800"> 
 
                 <!-- src="http://michaelgraham.com/wp-content/uploads/2013/02/silhouette-question-mark.jpg" -->
 
-                <h6 class="sentence"></h6>
-
-                <div class="celebrity-image"> 
+        
 
                 </div> 
             </div>
