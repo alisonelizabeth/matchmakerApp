@@ -3,12 +3,15 @@ var celebrity = [
 	{name: "Taylor Swift",
 	gender: "Female",
 	ageRange: "20-35",
-	personality: "romantic"},
+	personality: "romantic",
+	image: "http://media.fashionmagazine.com/images/sept07TIFFGC_250.jpg"
+},
 
 	{name: "Kristen Stewart",
 	gender: "Female",
 	ageRange: "20-35",
-	personality: "serious"},
+	personality: "serious",
+	image: "<img src='images/Clooney.jpg' />" },
 
 	{name: "Anna Kendrick",
 	gender: "Female",
@@ -120,7 +123,8 @@ function findMatch () {
 				obj.personality == selected.personalityInput; 
 	});
 
-	return matches.map(function(obj) {return obj})
+	return matches.map(function(obj) {return obj.image})
+	$("#preview-image").append(findMatch())
 	}
 
 function validateForm () {
