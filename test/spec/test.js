@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*global describe, it */
 'use strict';
 
@@ -21,15 +22,24 @@
         });
     });
 })();
+=======
+>>>>>>> b3fbaf430ba753760885015188c725b80403e8fe
 (function () {
-    describe('Give it some context', function () {
-        describe('maybe a bit more context here', function () {
-            it('should run here few assertions', function () {
-
+    describe('Celebrity is defined', function () {
+        describe('with corresponding attributes', function () {
+            it('name, gender, age, personality, image', function () {
+var celebrity = [
+    //female celebs 
+{name: "Taylor Swift",
+gender: "Female",
+ageRange: "20-35",
+personality: "romantic",
+image: "<img src='images/Swift.jpg' />"}]
             });
         });
     });
 })();
+<<<<<<< HEAD
 
 (function () {
     describe('Object is returned', function () {
@@ -69,3 +79,5 @@
 
 
 
+=======
+>>>>>>> b3fbaf430ba753760885015188c725b80403e8fe

@@ -161,7 +161,7 @@ a:hover {
 }
 
 .highlight {
-	background: red;
+	background: #2B79DA;
 }
 
 .message p {
@@ -204,3 +204,6 @@ img {
 	margin-bottom: 8px;
 }
 
+.button-styles {
+	background-image: url('images/bluebutton.jpg');
+}
