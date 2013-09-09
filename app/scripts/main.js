@@ -156,7 +156,7 @@ function getName () {
 };
 
 function addButton (){
-	var button = $(".preview-button").html("<button> Not satisfied? </button>")
+	var button = $(".preview-button").html("<button type='button' class='btn btn-danger'>Not satisfied?</button>")
 }
 
 // function fines user's match 
