@@ -112,11 +112,11 @@ var celebrity = [
 ];
 
 $(document).ready (function(){
-	$('.btn').click(function(){
+	$('.btn-primary').click(function(){
 		if (validateForm()) {  
 			getName();
 			$('#celeb-name').text(findMatchName());
-			$("#preview-image").append(findMatchPhoto());
+			$("#preview-image").empty().append(findMatchPhoto());
 				} //end of validateForm 
 		}); //end of button click function
 	
@@ -171,7 +171,7 @@ function validateForm () {
 				if ($(this).val() == "") {
 					valid = false
 					$(this).addClass("highlight")
-					$('.message').html('<p>Please enter your name.</p>')
+					$('.message').html('<p>*Please enter your name.</p>')
 				}
 			})
 			 return valid
