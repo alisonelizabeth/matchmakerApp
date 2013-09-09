@@ -207,3 +207,13 @@ img {
 .button-styles {
 	background-image: url('images/bluebutton.jpg');
 }
+
+#celeb-name{
+	margin-left: 60px;
+}
+
+.celebname {
+	margin-left: 60px;
+	font-size: 25px;
+	font-weight: bolder;
+}
