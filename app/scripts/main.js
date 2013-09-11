@@ -47,7 +47,7 @@ var celebrity = [
 	gender: "Female",
 	ageRange: "26-35",
 	personality: "romantic",
-	image: "<img src='images/knightley.jpg' />"},
+	image: "<img src='images/knight.jpg' />"},
 
 	{name: "Frieda Pinto",
 	gender: "Female",
@@ -220,130 +220,220 @@ var celebrity = [
 // male celebs 
 
 	{name: "Daniel Radcliffe",
-	name2: "<b>Daniel Radcliffe</b>" + "<br>",
 	gender: "Male",
 	ageRange: "18-25",
 	personality: "serious",
 	image: "<img src='images/Radcliffe.jpg' />" },
 
+	{name: "Anton Yelchin",
+	gender: "Male",
+	ageRange: "18-25",
+	personality: "serious",
+	image: "<img src='images/yelchin.jpg' />" },
+
 	{name: "Zac Efron",
-	name2: "<b>Zac Efron</b>" + "<br>",
 	gender: "Male",
 	ageRange: "18-25",
 	personality: "romantic",
 	image: "<img src='images/efron.jpg' />" },
 
+	{name: "Taylor Lautner",
+	gender: "Male",
+	ageRange: "18-25",
+	personality: "romantic",
+	image: "<img src='images/lautner.jpg' />" },
+
 	{name: "Christopher Mintz-Plasse",
-	name2: "<b>Christopher Mintz-Plasse</b>" + "<br>",
 	gender: "Male",
 	ageRange: "18-25",
 	personality: "funny",
 	image: "<img src='images/plasse.jpg' />" },
 
+	{name: "Michael Cera",
+	gender: "Male",
+	ageRange: "18-25",
+	personality: "funny",
+	image: "<img src='images/cera.jpg' />" },
+
 	{name: "Robert Pattinson",
-	name2: "<b>Robert Pattinson</b>" + "<br>",
 	gender: "Male",
 	ageRange: "26-35",
 	personality: "serious",
 	image: "<img src='images/pattison.jpg' />" },
 
+	{name: "Shia LaBeouf",
+	gender: "Male",
+	ageRange: "26-35",
+	personality: "serious",
+	image: "<img src='images/shia.jpg' />" },
+
 	{name: "Joseph Gordon-Levitt",
-	name2: "<b>Joseph Gordon-Levitt</b>" + "<br>",
 	gender: "Male",
 	ageRange: "26-35",
 	personality: "romantic",
 	image: "<img src='images/jgl.jpg' />" },
 
+	{name: "Ryan Gosling",
+	gender: "Male",
+	ageRange: "26-35",
+	personality: "romantic",
+	image: "<img src='images/Gosling.jpg' />" },
+
 	{name: "Jonah Hill",
-	name2: "<b>Jonah Hill</b>" + "<br>",
 	gender: "Male",
 	ageRange: "26-35",
 	personality: "funny",
 	image: "<img src='images/Jonah.jpg' />" },
 
+	{name: "Jesse Eisenberg",
+	gender: "Male",
+	ageRange: "26-35",
+	personality: "funny",
+	image: "<img src='images/eisenberg.jpg' />" },
+
 	{name: "Bradley Cooper",
-	name2: "<b>Bradley Cooper</b>" + "<br>",
 	gender: "Male",
 	ageRange: "36-45",
 	personality: "romantic",
 	image: "<img src='images/cooper.jpg' />" },
 
+	{name: "Orlando Bloom",
+	gender: "Male",
+	ageRange: "36-45",
+	personality: "romantic",
+	image: "<img src='images/bloom.jpg' />" },
+
 	{name: "Leonardo DiCaprio",
-	name2: "<b>Leonardo DiCaprio</b>" + "<br>",
 	gender: "Male",
 	ageRange: "36-45",
 	personality: "serious",
 	image: "<img src='images/Leo.jpg' />" },
 
+	{name: "Gerard Butler",
+	gender: "Male",
+	ageRange: "36-45",
+	personality: "serious",
+	image: "<img src='images/butler.jpg' />" },
+
 	{name: "Zach Galifianakis",
-	name2: "<b>Zach Galifianakis</b>" + "<br>",
 	gender: "Male",
 	ageRange: "36-45",
 	personality: "funny",
 	image: "<img src='images/Zach.jpg' />" }, 
 
+	{name: "Paul Rudd",
+	gender: "Male",
+	ageRange: "36-45",
+	personality: "funny",
+	image: "<img src='images/rudd.jpg' />" }, 
+
 	{name: "Brad Pitt",
-	name2: "<b>Brad Pitt</b>" + "<br>",
 	gender: "Male",
 	ageRange: "46-55",
 	personality: "romantic",
 	image: "<img src='images/Pitt.jpg' />" },
 
+	{name: "Patrick Dempsey",
+	gender: "Male",
+	ageRange: "46-55",
+	personality: "romantic",
+	image: "<img src='images/dempsey.jpg' />" },
+
 	{name: "Sean Penn",
-	name2: "<b>Sean Penn</b>" + "<br>",
 	gender: "Male",
 	ageRange: "46-55",
 	personality: "serious",
 	image: "<img src='images/penn.jpg' />" },
 
-	{name: "Alec Baldwin",
-	name2: "<b>Alec Baldwin</b>" + "<br>",
+	{name: "Johnny Depp",
 	gender: "Male",
-	ageRange: "51 and up",
+	ageRange: "46-55",
+	personality: "serious",
+	image: "<img src='images/depp.jpg' />" },
+
+	{name: "Alec Baldwin",
+	gender: "Male",
+	ageRange: "46-55",
 	personality: "funny",
 	image: "<img src='images/Baldwin.jpg' />" },  
 
+	{name: "Hank Azaria",
+	gender: "Male",
+	ageRange: "46-55",
+	personality: "funny",
+	image: "<img src='images/hank.jpg' />" },  
+
 	{name: "Mickey Rourke",
-	name2: "<b>Mickey Rourke</b>" + "<br>",
 	gender: "Male",
 	ageRange: "56-70",
 	personality: "romantic",
 	image: "<img src='images/rourke.jpg' />" },
+
+	{name: "Pierce Brosnan",
+	gender: "Male",
+	ageRange: "56-70",
+	personality: "romantic",
+	image: "<img src='images/brosnan.jpg' />" },
 	
 	{name: "Denzel Washington",
-	name2: "<b>Denzel Washington</b>" + "<br>",
 	gender: "Male",
 	ageRange: "56-70",
 	personality: "serious",
 	image: "<img src='images/Denzel.jpg' />" },
 
+	{name: "Liam Neeson",
+	gender: "Male",
+	ageRange: "56-70",
+	personality: "serious",
+	image: "<img src='images/neeson.jpg' />" },
+
 	{name: "Bill Murray",
-	name2: "<b>Bill Murray</b>" + "<br>",
 	gender: "Male",
 	ageRange: "56-70",
 	personality: "funny",
 	image: "<img src='images/murray.jpg' />" }, 
 
+	{name: "Steve Martin",
+	gender: "Male",
+	ageRange: "56-70",
+	personality: "funny",
+	image: "<img src='images/martin.jpg' />" }, 
+
 	{name: "Robert Redford",
-	name2: "<b>Robert Redford</b>" + "<br>",
 	gender: "Male",
 	ageRange: "71 and up",
 	personality: "romantic",
 	image: "<img src='images/redford.jpg' />" },
 
+	{name: "Harrison Ford",
+	gender: "Male",
+	ageRange: "71 and up",
+	personality: "romantic",
+	image: "<img src='images/ford.jpg' />" },
+
 	{name: "Robert De Niro",
-	name2: "<b>Robert De Niro</b>" + "<br>",
 	gender: "Male",
 	ageRange: "71 and up",
 	personality: "serious",
 	image: "<img src='images/niro.jpg' />" },
 
+	{name: "Al Pacino",
+	gender: "Male",
+	ageRange: "71 and up",
+	personality: "serious",
+	image: "<img src='images/palcino.jpg' />" },
+
 	{name: "Jack Nicholson",
-	name2: "<b>Jack Nicholson</b>" + "<br>",
 	gender: "Male",
 	ageRange: "71 and up",
 	personality: "funny",
-	image: "<img src='images/nicholson.jpg' />" }, 
+	image: "<img src='images/nicholson.jpg' />" },
+
+	{name: "Dustin Hoffman",
+	gender: "Male",
+	ageRange: "71 and up",
+	personality: "funny",
+	image: "<img src='images/hoffman.jpg' />" }, 
 ];
 
 $(document).ready (function(){
@@ -411,20 +501,20 @@ function multipleMatches () {
 	$("#preview-text").text(name + ", here's another match:")
 }
 
+// function finds next celeb match 
 function findNextMatchPhoto () {
 	i = i + 1
 	findMatch();
 	var image = matches.map(function(obj) {return obj.image});
 
 	if (image.length <= i) {
-		return {emtpyButton: $('.preview-button').empty()
-				 } 
+		return {emptyButton: $('.preview-button').html('Sorry, there are no more matches.')
+				   }
 	} else {
 	return image[i]
 	
 }
 }
-
 
 function validateForm () {
 			var valid = true;
