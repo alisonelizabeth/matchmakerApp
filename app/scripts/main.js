@@ -1,126 +1,217 @@
 var celebrity = [
     //female celebs 
-    {name: "Taylor Swift",
-	name2: "<b>Taylor Swift</b>" + "<br>",
+
+	{name: "Taylor Swift",
 	gender: "Female",
 	ageRange: "18-25",
 	personality: "romantic",
 	image: "<img src='images/Swift.jpg' />"},
 
+	{name: "Selena Gomez",
+	gender: "Female",
+	ageRange: "18-25",
+	personality: "romantic",
+	image: "<img src='images/gomez.jpg' />"},
+
 	{name: "Kristen Stewart",
-	name2: "<b>Kristen Stewart</b>" + "<br>",
 	gender: "Female",
 	ageRange: "18-25",
 	personality: "serious",
 	image: "<img src='images/Kristen.jpg' />" },
 
+	{name: "Dakota Fanning",
+	gender: "Female",
+	ageRange: "18-25",
+	personality: "serious",
+	image: "<img src='images/fanning.jpg' />" },
+
 	{name: "Miley Cyrus",
-	name2: "<b>Miley Cyrus</b>" + "<br>",
 	gender: "Female",
 	ageRange: "18-25",
 	personality: "funny",
 	image: "<img src='images/cyrus.jpg' />" },	
 
+	{name: "Emma Stone",
+	gender: "Female",
+	ageRange: "18-25",
+	personality: "funny",
+	image: "<img src='images/stone.jpg' />" },
+
 	{name: "Jennifer Lawrence",
-	name2: "<b>Jennifer Lawrence</b>" + "<br>",
 	gender: "Female",
 	ageRange: "26-35",
 	personality: "romantic",
 	image: "<img src='images/lawrence.jpg' />"},
 
+	{name: "Keira Knightley",
+	gender: "Female",
+	ageRange: "26-35",
+	personality: "romantic",
+	image: "<img src='images/knightley.jpg' />"},
+
 	{name: "Frieda Pinto",
-	name2: "<b>Frieda Pinto</b>" + "<br>",
 	gender: "Female",
 	ageRange: "26-35",
 	personality: "serious",
 	image: "<img src='images/pinto.jpg' />" },
 
+	{name: "Rachel McAdams",
+	gender: "Female",
+	ageRange: "26-35",
+	personality: "serious",
+	image: "<img src='images/mcadams.jpg' />"},
+
 	{name: "Anna Kendrick",
-	name2: "<b>Anna Kendrick</b>" + "<br>",
 	gender: "Female",
 	ageRange: "26-35",
 	personality: "funny",
 	image: "<img src='images/Kendrick.jpg' />" },
 
+	{name: "Mila Kunis",
+	gender: "Female",
+	ageRange: "26-35",
+	personality: "funny",
+	image: "<img src='images/kunis.jpg' />" },
+
 	{name: "Julia Roberts",
-	name2: "<b>Julia Roberts</b>" + "<br>",
 	gender: "Female",
 	ageRange: "36-45",
 	personality: "romantic", 
 	image: "<img src='images/Roberts.jpg' />" },
 
+	{name: "Kate Beckinsale",
+	gender: "Female",
+	ageRange: "36-45",
+	personality: "romantic", 
+	image: "<img src='images/beckinsale.jpg' />" },
+
 	{name: "Hilary Swank",
-	name2: "<b>Hilary Swank</b>" + "<br>",
 	gender: "Female",
 	ageRange: "36-45",
 	personality: "serious",
 	image: "<img src='images/swank.jpg' />" },
 
+	{name: "Angelina Jolie",
+	gender: "Female",
+	ageRange: "36-45",
+	personality: "serious",
+	image: "<img src='images/jolie.jpg' />" },
+
 	{name: "Tina Fey",
-	name2: "<b>Tina Fey</b>" + "<br>",
 	gender: "Female",
 	ageRange: "36-45",
 	personality: "funny",
 	image: "<img src='images/Fey.jpg' />" }, 
 
+	{name: "Leslie Mann",
+	gender: "Female",
+	ageRange: "36-45",
+	personality: "funny",
+	image: "<img src='images/mann.jpg' />" }, 
+
 	{name: "Michelle Pfeiffer",
-	name2: "<b>Michelle Pfeiffer</b>" + "<br>",
+	gender: "Female",
+	ageRange: "46-55",
+	personality: "romantic",
+	image: "<img src='images/pfeiffer.jpg' />" },
+
+	{name: "Julianne Moore",
 	gender: "Female",
 	ageRange: "46-55",
 	personality: "romantic",
 	image: "<img src='images/pfeiffer.jpg' />" },
 
 	{name: "Nicole Kidman",
-	name2: "<b>Nicole Kidman</b>" + "<br>",
 	gender: "Female",
 	ageRange: "46-55",
 	personality: "serious",
 	image: "<img src='images/Kidman.jpg' />" },
 
+	{name: "Holly Hunter",
+	gender: "Female",
+	ageRange: "46-55",
+	personality: "serious",
+	image: "<img src='images/hunter.jpg' />" },
+
+	{name: "Bonnie Hunt",
+	gender: "Female",
+	ageRange: "46-55",
+	personality: "funny",
+	image: "<img src='images/hunt.jpg' />" },
+
 	{name: "Fran Drescher",
-	name2: "<b>Fran Drescher</b>" + "<br>",
 	gender: "Female",
 	ageRange: "46-55",
 	personality: "funny",
 	image: "<img src='images/fran.jpg' />" },
 
 	{name: "Kim Cattrall",
-	name2: "<b>Kim Cattrall</b>" + "<br>",
 	gender: "Female",
 	ageRange: "56-70",
 	personality: "romantic",
 	image: "<img src='images/Kim.jpg' />" },
 
+	{name: "Olivia Newton-John",
+	gender: "Female",
+	ageRange: "56-70",
+	personality: "romantic",
+	image: "<img src='images/john.jpg' />" },
+
 	{name: "Susan Sarandon",
-	name2: "<b>Susan Sarandon</b>" + "<br>",
 	gender: "Female",
 	ageRange: "56-70",
 	personality: "serious",
 	image: "<img src='images/Susan.jpg' />" },
 
+	{name: "Sigourney Weaver",
+	gender: "Female",
+	ageRange: "56-70",
+	personality: "serious",
+	image: "<img src='images/weaver.jpg' />" },
+
 	{name: "Candice Bergen",
-	name2: "<b>Candice Bergen</b>" + "<br>",
 	gender: "Female",
 	ageRange: "56-70",
 	personality: "funny",
 	image: "<img src='images/bergen.jpg' />" },
 
+	{name: "Kathy Bates",
+	gender: "Female",
+	ageRange: "56-70",
+	personality: "funny",
+	image: "<img src='images/bates.jpg' />" },
+
 	{name: "Sophia Loren",
-	name2: "<b>Sophia Loren</b>" + "<br>",
 	gender: "Female",
 	ageRange: "71 and up",
 	personality: "romantic",
 	image: "<img src='images/sophia.jpg' />" },
 
+	{name: "Jane Fonda",
+	gender: "Female",
+	ageRange: "71 and up",
+	personality: "romantic",
+	image: "<img src='images/fonda.jpg' />" },
+
 	{name: "Angela Lansbury",
-	name2: "<b>Angela Lansbury</b>" + "<br>",
 	gender: "Female",
 	ageRange: "71 and up",
 	personality: "serious",
 	image: "<img src='images/landsbury.jpg' />" },
 
+	{name: "Vanessa Redgrave",
+	gender: "Female",
+	ageRange: "71 and up",
+	personality: "serious",
+	image: "<img src='images/redgrave.jpg' />" },
+
 	{name: "Betty White",
-	name2: "<b>Betty White</b>" + "<br>",
+	gender: "Female",
+	ageRange: "71 and up",
+	personality: "funny",
+	image: "<img src='images/Betty.jpg' />" }, 
+
+	{name: "Cloris Leachman",
 	gender: "Female",
 	ageRange: "71 and up",
 	personality: "funny",
@@ -263,14 +354,13 @@ $(document).ready (function(){
 			$("#preview-image").empty().append(findMatchPhoto());
 			addButton();
 				} //end of validateForm 
-			$()
 		}); //end of button click function
+	var i = 0 
 	$('.preview-button').click(function(){
 		multipleMatches();
 		$('#celeb-name').empty();
-		$("#preview-image").empty().append(findMatchPhotos2());
-		$('.preview-button').empty();
-	})
+		$("#preview-image").empty().append(findNextMatchPhoto());
+		})
 	
 }); //end of document ready
 
@@ -285,55 +375,56 @@ function addButton (){
 	var button = $(".preview-button").html("<button type='button' class='btn btn-danger'>Not satisfied?</button>")
 }
 
-// function fines user's match 
+// function finds user's match 
 function findMatch () {
 	selected = {
 		genderInput: $("#gender").val(), 
 		ageInput: $("#age-range").val(),
-		personalityInput: $("#personality").val()
+		personalityInput: $("#personality").val(),
 	}
 
 	matches = celebrity.filter(function(obj) {
 		return	obj.gender 		!== selected.genderInput &&
 				obj.ageRange 	=== selected.ageInput &&
-				obj.personality === selected.personalityInput; 
+				obj.personality === selected.personalityInput
 	});
 	}
 
 // function returns the celeb photo
+i = 0 
 function findMatchPhoto () {
-	findMatch()
-	return matches.map(function(obj) {return obj.image})
-	}
+	findMatch();
+	var image = matches.map(function(obj) {return obj.image});
+	return image[i]; 
+}
 
 //function returns the celeb name 
 function findMatchName () {
-	findMatch()
-	return matches.map(function(obj) {return obj.name})
+	findMatch();
+	var name = matches.map(function(obj) {return obj.name});
+	return name[i];
 	}
 
-
+//function returns user name again 
 function multipleMatches () {
 	var name = $("#name").val();
-	$("#preview-text").text(name + ', here are some other matches:')
+	$("#preview-text").text(name + ", here's another match:")
 }
 
-function findMatch2 () {
-	selected2 = {
-		genderInput: $("#gender").val(), 
-		ageInput: $("#age-range").val(),
-	}
+function findNextMatchPhoto () {
+	i = i + 1
+	findMatch();
+	var image = matches.map(function(obj) {return obj.image});
 
-	matches2 = celebrity.filter(function(obj) {
-		return	obj.gender 		!== selected.genderInput &&
-				obj.ageRange 	=== selected.ageInput;
-	});
-	}
-
-function findMatchPhotos2 () {
-	findMatch2()
-	return matches2.map(function(obj) {return obj.name2})
+	if (image.length <= i) {
+		return {emtpyButton: $('.preview-button').empty()
+				 } 
+	} else {
+	return image[i]
+	
 }
+}
+
 
 function validateForm () {
 			var valid = true;
