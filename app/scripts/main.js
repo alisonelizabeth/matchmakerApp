@@ -443,6 +443,7 @@ $(document).ready (function(){
 			$('#celeb-name').text(findMatchName());
 			$("#preview-image").empty().append(findMatchPhoto());
 			addButton();
+
 				} //end of validateForm 
 		}); //end of button click function
 	var i = 0 
@@ -450,6 +451,8 @@ $(document).ready (function(){
 		multipleMatches();
 		$('#celeb-name').empty();
 		$("#preview-image").empty().append(findNextMatchPhoto());
+		$('#name').val('');
+		$('select').val('');
 		})
 	
 }); //end of document ready
@@ -506,20 +509,22 @@ function findNextMatchPhoto () {
 	i = i + 1
 	findMatch();
 	var image = matches.map(function(obj) {return obj.image});
+	var name = matches.map(function(obj) {return obj.name});
+	console.log(name[i])
 
 	if (image.length <= i) {
-		return {emptyButton: $('.preview-button').html('Sorry, there are no more matches.')
-				   }
+		$('.preview-button').html('Sorry, there are no more matches.')
+		$('#preview-text').hide();			   
 	} else {
-	return image[i]
-	
-}
+		$('#celeb-name').append('<span>' + name[i] + '</span>')
+		return image[i]
+	}
 }
 
 function validateForm () {
 			var valid = true;
 			$('#name').removeClass("highlight")
-			$('.message').html('<p> </p>')
+			$('.message').html('')
 			$('#name').each(function(){
 				if ($(this).val() == "") {
 					valid = false

@@ -219,3 +219,7 @@ img {
 	font-size: 25px;
 	font-weight: bolder;
 }
+
+.btn-contact {
+	padding-bottom: 7px !important;
+}
